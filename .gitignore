@@ -1,0 +1,8 @@
+# files
+.env
+claudia.json
+env.json
+.eslintrc.json
+
+# folders
+node_modules/

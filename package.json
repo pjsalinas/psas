@@ -1,0 +1,41 @@
+{
+  "name": "psas",
+  "version": "1.0.0",
+  "description": "A node.js app using Claudia.js to connect an Airtable base w/Slack Slach Commands to keep track of my dily food intake",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-from-json": "claudia update --set-env-from-json ../env/psas.env.json",
+    "start": "ntl"
+  },
+  "keywords": [
+    "Airtable",
+    "node",
+    "nodejs",
+    "node.js",
+    "slack",
+    "claudia",
+    "claudia.js",
+    "aws",
+    "lambda"
+  ],
+  "author": "Pedro J. Salinas",
+  "license": "MIT",
+  "dependencies": {
+    "airtable": "^0.5.8",
+    "aws-sdk": "^2.395.0",
+    "claudia-bot-builder": "^4.5.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "promise-delay": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "ntl": "^3.2.1",
+    "prettier": "^1.16.4"
+  }
+}
